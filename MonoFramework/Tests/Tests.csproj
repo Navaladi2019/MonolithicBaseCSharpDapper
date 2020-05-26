@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseLogics\MonoFrame.BaseLogics.csproj" />
+    <ProjectReference Include="..\DbPooling\MonoFrame.DataBase.csproj" />
+    <ProjectReference Include="..\QueryGenerator\MonoFrame.QueryGenerator.csproj" />
+  </ItemGroup>
+
+</Project>

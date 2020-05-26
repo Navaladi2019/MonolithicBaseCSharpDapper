@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>ITGalaxFramework</AssemblyName>
+    <RootNamespace>ITGalaxFramework</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseLogics\ITGalax.BaseLogics.csproj" />
+    <ProjectReference Include="..\DbPooling\ITGalax.DataBase.csproj" />
+    <ProjectReference Include="..\ITGalax.Helper\ITGalax.Helper.csproj" />
+    <ProjectReference Include="..\QueryGenerator\ITGalax.QueryGenerator.csproj" />
+  </ItemGroup>
+
+</Project>
